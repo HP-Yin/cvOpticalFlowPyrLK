@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 project(OpticalFlowPyrLK)
 
-set(CMAKE_BUILD_TYPE "Debug")
+set(CMAKE_BUILD_TYPE "Release")
 add_definitions("-DENABLE_SSE")
 set(CMAKE_CXX_FLAGS "-std=c++11 ${SSE_FLAGS} -g -O3 -march=native")
 
@@ -15,7 +15,6 @@ include_directories(
 )
 
 add_library(OpticalFlowPyrLK SHARED
-    #cvklt/klt_cpu.cpp
     OpticalFlowPyrLK.cpp
 )
 
