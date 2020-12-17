@@ -73,7 +73,3 @@ int main(int argc, char **argv)
 
     return 0;
 }
-
-// https://blog.csdn.net/findgeneralgirl/article/details/107919541 
-// Lucas B D, Kanade T. An iterative image registration technique with an application to stereo vision
-// https://blog.csdn.net/banyao2006/article/details/39484113
