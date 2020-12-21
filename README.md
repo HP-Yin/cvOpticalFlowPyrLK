@@ -11,4 +11,6 @@ cd build
 cmake ..  
 make -j  
 ./TestOpticalFlow  
-
+  
+Change your path here:  
+https://github.com/HP-Yin/cvOpticalFlowPyrLK/blob/main/TestOpticalFlow.cpp#L12
